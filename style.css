@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(34, 4, 34);
+    color: white;
+}
+section {
+    display: flex;
+}
+img {
+    width: 700px;
+    height: 700px;
+}
+.vat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+ h2 {
+    font-weight: 900;
+    font-size: 70px;
+}
+p {
+    font-size: 20px;
+    margin: 10px 0;
+    width: 100%;
+}
+a {
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.button {
+    margin-top: 40px;
+}
